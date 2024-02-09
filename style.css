@@ -45,6 +45,10 @@ caption {
     padding: 8px;
 }
 
+p {
+    padding-left: 1%;
+}
+
 /* Table container */
 .table_component {
     width: 100%;
