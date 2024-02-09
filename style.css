@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #dededf;
+}
+
+th,
+td {
+    border: 1px solid #dededf;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+caption {
+    caption-side: top;
+    text-align: left;
+    font-weight: bold;
+    padding: 8px;
+}
+
+/* Table container */
+.table_component {
+    width: 100%;
+    overflow-x: auto;
+    /* Allow horizontal scrolling if needed */
+}
+
+/* Table styles */
+.table_component table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #dededf;
+}
+
+/* Caption styles */
+.table_component caption {
+    caption-side: top;
+    text-align: left;
+    font-weight: bold;
+    padding: 8px;
+}
+
+/* Header cell styles */
+.table_component th {
+    background-color: #f2f2f2;
+    /* Light gray background */
+    border: 1px solid #dededf;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Data cell styles */
+.table_component td {
+    border: 1px solid #dededf;
+    padding: 10px;
+}
+
+/* Alternating row colors */
+.table_component tr:nth-child(even) {
+    background-color: #f9f9f9;
+    /* Lighter gray background for even rows */
+}
+
+/* Hover effect */
+.table_component tbody tr:hover {
+    background-color: #f2f2f2;
+    /* Darker gray background on hover */
+}
